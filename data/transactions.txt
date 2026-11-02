@@ -1,0 +1,1 @@
+1|INCOME|25000.0|salary|monthly salary|2026-11-02

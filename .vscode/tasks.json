@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Personal Expense Tracker",
+      "type": "shell",
+      "command": "javac -encoding UTF-8 -d out src\\*.java",
+      "group": "build",
+      "problemMatcher": "$javac"
+    },
+    {
+      "label": "Run Personal Expense Tracker",
+      "type": "shell",
+      "command": "java -cp out Main",
+      "dependsOn": "Build Personal Expense Tracker",
+      "dependsOrder": "sequence",
+      "problemMatcher": []
+    }
+  ]
+}
